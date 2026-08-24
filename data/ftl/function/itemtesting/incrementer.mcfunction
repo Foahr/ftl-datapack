@@ -1,0 +1,1 @@
+give @s arrow[item_model="brush", minecraft:custom_data={item:incrementer},food={nutrition:0,saturation:0,can_always_eat:1b},minecraft:consumable={consume_seconds:1000000,has_consume_particles:0b},item_name={text:"Incrementer", "color":"white"}]

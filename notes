@@ -1,0 +1,11 @@
+Systems
+
+Systems
+    Mannable
+    requires reactor energy to function
+Aux Systems
+    unmannable
+    require reactor energy to function
+SubSystems
+    Mannable
+    do not require reactor energy to function
