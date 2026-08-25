@@ -5,13 +5,13 @@
       "conditions": {
         "item": {
           "predicates": {
-            "minecraft:custom_data": "{item:shdinc}"
+            "minecraft:custom_data": "{item:shdpowinc}"
           }
         }
       }
     }
   },
   "rewards": {
-    "function": "ftl:itemtesting/incactivations/shdactivate"
+    "function": "ftl:itemtesting/poweractivations/shdactivate"
   }
 }

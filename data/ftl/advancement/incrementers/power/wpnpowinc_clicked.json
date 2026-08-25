@@ -5,13 +5,13 @@
       "conditions": {
         "item": {
           "predicates": {
-            "minecraft:custom_data": "{item:wpninc}"
+            "minecraft:custom_data": "{item:wpnpowinc}"
           }
         }
       }
     }
   },
   "rewards": {
-    "function": "ftl:itemtesting/incactivations/wpnactivate"
+    "function": "ftl:itemtesting/poweractivations/wpnactivate"
   }
 }

@@ -1,6 +1,6 @@
 #clear previous objectives
 scoreboard objectives remove power
-scoreboard objectives remove powercap
+scoreboard objectives remove level
 scoreboard objectives remove powerusage 
 
 
@@ -19,10 +19,16 @@ scoreboard players add .Medbay power 0
 #scoreboard players add .Cameras power 0
 
 
-#setting up the power cap
-scoreboard objectives add powercap dummy
+#setting up the system levels. reactor level acts as a power usage cap
+scoreboard objectives add level dummy
 
-scoreboard players add .Reactor powercap 9 
+scoreboard players add .Reactor level 8
+
+scoreboard players add .Weapons level 3
+scoreboard players add .Shields level 2
+scoreboard players add .Engines level 2
+scoreboard players add .Oxygen level 1
+scoreboard players add .Medbay level 1
 
 #setting up total power usage
 scoreboard objectives add powerusage dummy
@@ -33,6 +39,6 @@ scoreboard players add .min powerusage 0
 #setting up displays
 scoreboard objectives setdisplay sidebar power 
 scoreboard objectives setdisplay sidebar powerusage
-scoreboard objectives setdisplay sidebar powercap 
+scoreboard objectives setdisplay sidebar level
 
 execute run function ftl:scoreboard/calcusage
