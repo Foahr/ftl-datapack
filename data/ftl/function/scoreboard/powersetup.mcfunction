@@ -28,7 +28,7 @@ scoreboard players add .Reactor powercap 9
 scoreboard objectives add powerusage dummy
 
 scoreboard players add .total powerusage 0
-
+scoreboard players add .min powerusage 0
 #setting up displays
 scoreboard objectives setdisplay sidebar power 
 scoreboard objectives setdisplay sidebar powerusage
