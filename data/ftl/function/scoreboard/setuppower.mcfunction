@@ -2,7 +2,7 @@
 scoreboard objectives remove power
 scoreboard objectives remove level
 scoreboard objectives remove powerusage 
-
+scoreboard objectives remove damage
 
 #setting up power for all systems
 scoreboard objectives add power dummy
@@ -30,6 +30,15 @@ scoreboard players add .Engines level 2
 scoreboard players add .Oxygen level 1
 scoreboard players add .Medbay level 1
 
+#setting up system damage. system level acts as damage cap
+scoreboard objectives add damage dummy
+
+scoreboard players add .Weapons damage 0
+scoreboard players add .Shields damage 0
+scoreboard players add .Engines damage 0
+scoreboard players add .Oxygen damage 0
+scoreboard players add .Medbay damage 0
+
 #setting up total power usage
 scoreboard objectives add powerusage dummy
 
@@ -40,5 +49,6 @@ scoreboard players add .min powerusage 0
 scoreboard objectives setdisplay sidebar power 
 scoreboard objectives setdisplay sidebar powerusage
 scoreboard objectives setdisplay sidebar level
+scoreboard objectives setdisplay sidebar damage
 
 execute run function ftl:scoreboard/calcusage

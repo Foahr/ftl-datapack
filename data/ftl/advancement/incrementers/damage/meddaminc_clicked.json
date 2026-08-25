@@ -5,13 +5,13 @@
       "conditions": {
         "item": {
           "predicates": {
-            "minecraft:custom_data": "{item:shdlevinc}"
+            "minecraft:custom_data": "{item:meddaminc}"
           }
         }
       }
     }
   },
   "rewards": {
-    "function": "ftl:itemtesting/activations/levelactivations/shdactivate"
+    "function": "ftl:itemtesting/activations/damageactivations/medactivate"
   }
 }

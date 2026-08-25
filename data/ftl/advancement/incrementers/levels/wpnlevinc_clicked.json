@@ -12,6 +12,6 @@
     }
   },
   "rewards": {
-    "function": "ftl:itemtesting/levelactivations/wpnactivate"
+    "function": "ftl:itemtesting/activations/levelactivations/wpnactivate"
   }
 }

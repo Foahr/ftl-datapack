@@ -12,6 +12,6 @@
     }
   },
   "rewards": {
-    "function": "ftl:itemtesting/poweractivations/medactivate"
+    "function": "ftl:itemtesting/activations/poweractivations/medactivate"
   }
 }

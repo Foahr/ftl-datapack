@@ -12,6 +12,6 @@
     }
   },
   "rewards": {
-    "function": "ftl:itemtesting/levelactivations/oxyactivate"
+    "function": "ftl:itemtesting/activations/levelactivations/oxyactivate"
   }
 }
