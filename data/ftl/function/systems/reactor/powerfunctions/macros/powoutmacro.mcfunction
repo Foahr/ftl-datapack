@@ -1,7 +1,7 @@
 # decreases system power UNLESS system power is equal to 0
 $execute unless score $(key1) power <= .min powerusage run say Decreased $(key2) power by 1
 $execute unless score $(key1) power <= .min powerusage run scoreboard players remove $(key1) power 1 
-
+playsound ftlaudio:powerout
 
 #resets if right click leads to null value
 $execute if score $(key1) power < .min powerusage run scoreboard players set $(key1) power 0
