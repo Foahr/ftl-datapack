@@ -1,0 +1,1 @@
+execute at @e[type=marker, tag=room.1] as @s run place template minecraft:groundbreach ^1 ^-1 ^1
