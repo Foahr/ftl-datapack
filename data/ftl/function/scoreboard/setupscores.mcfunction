@@ -7,6 +7,7 @@ scoreboard objectives remove eflevel
 
 scoreboard objectives remove isBreach
 scoreboard objectives remove isFire
+scoreboard objectives remove oxycount
 
 #setting up scoreboards
 scoreboard objectives add power dummy
@@ -17,6 +18,7 @@ scoreboard objectives add eflevel dummy
 
 scoreboard objectives add isBreach dummy
 scoreboard objectives add isFire dummy
+scoreboard objectives add oxycount dummy
 
 #macros setting up main systems, stlevel is starting level, stpower is starting power
 function ftl:scoreboard/macros/systemsetup {system: ".Weapons", stlevel: 4, stpower: 0}
