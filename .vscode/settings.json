@@ -1,3 +1,4 @@
 {
-    "problems.visibility": true
+    "problems.visibility": true,
+    "explorer.compactFolders": false
 }
