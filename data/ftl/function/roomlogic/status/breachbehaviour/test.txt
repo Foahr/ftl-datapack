@@ -1,0 +1,17 @@
+#ROOM BREACH LOGIC
+parent markers hold oxycount, 
+ which needs to depreciate WHILE a one or more child markers have a isBreached value above 0
+
+parents need to be able to check their children, which share a ship and room tag, get their isBreached value,
+ and increment their own breachcount score.
+
+while breach count is above 0, oxycount needs to deplete
+
+#ROOM FIRE LOGIC
+when child markers have a isFire value of 20, a fire is started on that square.
+ fire caps out at 20, and when at 20 for a certain amount of time it needs to spread to a nearby square.
+
+when a parent has no oxycount or a player is repairing a fire, the isFire value increments down.
+ when 0, fire is gone
+
+fire needs to damage players in the room
