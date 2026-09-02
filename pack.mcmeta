@@ -1,6 +1,6 @@
 {
   "pack": {
-    "description": "testing scoreboard values for controlling FTL stations",
-    "pack_format": 107.1
+    "description": "FTL",
+    "pack_format": 119
   }
 }

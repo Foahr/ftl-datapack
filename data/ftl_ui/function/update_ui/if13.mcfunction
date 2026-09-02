@@ -1,2 +1,2 @@
-execute if score .Shields level matches 3 run return run posteffect add @a ftl_ui:shields_max_3
-posteffect remove @a ftl_ui:shields_max_3
+execute if score .Weapons level matches 3 run return run posteffect add @a ftl_ui:weapons_max_3
+posteffect remove @a ftl_ui:weapons_max_3

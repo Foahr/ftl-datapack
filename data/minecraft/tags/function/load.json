@@ -1,5 +1,6 @@
 {
-    "values":[
-      "ftl:loops/load"
-    ]
-  }
+  "replace": false,
+  "values": [
+    "#load:_private/load"
+  ]
+}
