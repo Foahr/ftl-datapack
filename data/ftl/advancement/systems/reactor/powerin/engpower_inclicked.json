@@ -4,11 +4,15 @@
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "entity": {
-          "minecraft:entity_type": "minecraft:interaction",
-          "minecraft:entity_tags": {
-            "all_of": [
-              "reactor_engpow"
-            ]
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_tags": {
+              "all_of": [
+                "reactor_engpow"
+              ]
+            },
+            "minecraft:entity_type": "minecraft:interaction"
           }
         }
       }

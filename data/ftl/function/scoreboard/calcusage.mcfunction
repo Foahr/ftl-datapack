@@ -13,3 +13,5 @@ scoreboard players operation .total powerusage += .Medbay power
 scoreboard players operation .total powerusage += .Oxygen power
 scoreboard players operation .total powerusage += .Shields power
 scoreboard players operation .total powerusage += .Weapons power
+
+function ftl_ui:update_ui
